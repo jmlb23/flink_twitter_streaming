@@ -7,7 +7,6 @@ import org.apache.flink.streaming.api.scala._
 import org.apache.flink.streaming.connectors.twitter.TwitterSource
 import argonaut._
 import Argonaut._
-import com.typesafe.config.{Config, ConfigFactory}
 import org.apache.flink.api.common.functions.AggregateFunction
 import org.apache.flink.streaming.api.functions.sink.filesystem.BucketAssigner
 import org.apache.flink.streaming.api.scala.extensions.acceptPartialFunctions
